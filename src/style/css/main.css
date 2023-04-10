@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.home {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-color: #292929;
+  font-family: sans-serif;
+  text-align: center;
+}
+.home__background--img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.home__container {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  width: 480px;
+  height: 276px;
+  background-color: #313338;
+  padding: 32px;
+  border-radius: 5px;
+}
+.home__h1 {
+  font-size: 24px;
+  color: #f2f3f5;
+  margin: 0 0 8px;
+}
+.home__p {
+  font-size: 16px;
+  color: #b5bac1;
+}
+.home__btn {
+  background-color: #5865f2;
+  font-size: 16px;
+  color: #fff;
+  margin: 40px 0 0;
+  outline: none;
+  border: none;
+  width: 416px;
+  height: 44px;
+  padding: 2px 16px;
+}
+
+.bait {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.bait > h1 {
+  color: red;
+  font-size: 25rem;
+}
+.bait > p {
+  font-size: 5rem;
+}
+.bait > span {
+  margin-top: 5rem;
+  font-size: 10rem;
+}/*# sourceMappingURL=main.css.map */
